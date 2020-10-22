@@ -75,7 +75,7 @@ class Im3xWidget {
     data.shift()
     // 显示数据
     let w = new ListWidget()
-    w = await this.renderHeader(w, 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2225458401,2104443747&fm=26&gp=0.jpg', '微博热搜')
+    w = await this.renderHeader(w, 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2225458401,2104443747&fm=26&gp=0.jpg', '微博热搜 sk')
     
     // 布局：一行一个，左边顺序排序，中间标题，后边热/新
     for (let i = 0; i < count; i ++) {
